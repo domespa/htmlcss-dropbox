@@ -71,6 +71,13 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+h1 {
+    padding-top: 100px;
+    font-size: 50px;
+    padding-bottom: 50px;
+    font-weight: 900;
+}
+
 /*----------------
     BUTTONS
 ------------------*/
@@ -85,12 +92,16 @@ body {
 .btn-large {
     padding: 10px 20px;
     font-size: 16px;
+    background-color: #0061fe;
+    color: white;
+    margin: 20px 0;
 }
 
 .btn-primary {
-    background-color: #0061fe;
+
     color: #fff;
     font-size: 14px;
+    background-color: #0061fe;
 }
 
 /*----------------
@@ -126,7 +137,31 @@ header {
 /*----------------
     MAIN
 ------------------*/
+main > section {
+    background-color: #b4d0e6;
 
+}
+
+.hero-sect {
+    /* background-color: #b4d0e6; */
+    display: flex;
+    gap: 30px;
+    width: 100%;
+
+}
+.container .cols-small {
+    display: flex;
+    width: 30%;
+}
+
+.container .cols-big {
+    display: flex;
+    width: 70%;
+}
+
+.img-hero {
+    max-width: 100%;
+}
 /*----------------
     FOOTER
 ------------------*/

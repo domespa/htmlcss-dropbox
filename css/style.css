@@ -38,6 +38,14 @@
     padding-right: 20px; */
 }
 
+.container-small {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
 .row {
     display: flex;
 }
@@ -60,7 +68,7 @@
     TYPOGRAPHY
 ------------------*/
 body {
-    font-family: "Roboto", serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /*----------------
@@ -70,7 +78,7 @@ body {
     background-color: transparent;
     font-family: inherit;
     border: none;
-    padding: 6px 12px;
+    padding: 5px 10px;
     cursor: pointer;
 }
 
@@ -80,13 +88,40 @@ body {
 }
 
 .btn-primary {
-    background-color: lightcoral;
+    background-color: #0061fe;
     color: #fff;
+    font-size: 14px;
 }
 
 /*----------------
     HEADER
 ------------------*/
+header {
+    padding: 10px;
+    max-width: 100%;
+}
+
+.cont-header {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.logo {
+    padding: 5px 10px;
+}
+    
+ ul {
+    line-height: 28px;
+    padding-left: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
 
 /*----------------
     MAIN

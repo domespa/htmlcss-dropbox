@@ -79,6 +79,7 @@ h1 {
 }
 
 h2 {
+    font-size: 35px;
     padding-top: 50px;
     padding-bottom: 30px;
 }
@@ -132,6 +133,18 @@ li > i {
     width: 80%;
 }
 
+.btn-large-last {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #0061fe;
+    color: white;
+    margin: 20px 0;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 1%;
+}
+
 .btn-primary {
     color: #fff;
     font-size: 14px;
@@ -148,7 +161,6 @@ header {
     top: 0;
     left: 0;
     z-index: 99;
-    height: 60px;
     background-color: white;
 }
 
@@ -172,20 +184,28 @@ header {
     align-items: center;
 }
 
-section li {
+section ul {
     text-decoration: none;
-    padding-top: 15px;    
+    padding-top: 50px;    
+}
+
+section li {
+    padding-top: 10px;
 }
 
 li{
     text-decoration: none;
-    padding-top: 10px;
     list-style-type: none;
     /* padding-top: 50px; */
     /* justify-content: flex-start; */
     display: flex;
     align-items: baseline;
 }
+
+.products-price-last li {
+    padding-bottom: 30px;
+}
+
 
 /*----------------
     MAIN
@@ -247,25 +267,25 @@ input {
     width: calc(100% / 3);
     /* justify-content: center; */
     /* display: flex; */
-    border: 1px solid black;
+    border: 1px solid gray;
     text-align: center;
 }
 
 .type-plan {
     font-size: 14px;
-    /* padding: 15px; */
-    /* padding-left: 30px; */
-    /* padding-right: 30px; */
+    text-align: center;
 }
 
 .type-plan > p {
     padding: 10px;
+    /* text-align: center; */
 }
 
 .products-price {
     text-align: left;
-    border-top: 1px solid black;
+    border-top: 1px solid gray;
     padding: 30px 30px;
+    position: relative;
 }
 
 .products-price-last {
@@ -297,6 +317,15 @@ span {
 hr { 
     width: 15%;
     margin-left: 30px;
+}
+
+.row-product {
+    margin-top: 50px;
+    border: 1px solid gray;
+}
+
+.products-price p {
+    padding-top: 50px;
 }
 
 /*----------------

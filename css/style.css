@@ -364,6 +364,10 @@ hr {
 
 }
 
+p > a {
+    text-decoration: underline;
+}
+
 .small-article {
     width: 100%;
 }

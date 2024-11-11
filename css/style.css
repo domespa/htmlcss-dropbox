@@ -122,9 +122,9 @@ h4 {
 }
 
 .btn:hover {
-    background-color: transparent;
+    background-color: #468CFE;
     transition: 0.7s;
-    color: #000;
+    color: #fff;
 }
 
 .btn-large {
@@ -281,7 +281,7 @@ input {
 .products-det {
     margin-top: 50px;
     width: calc(100% / 3);
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
     text-align: center;
 }
 
@@ -296,7 +296,7 @@ input {
 
 .products-price {
     text-align: left;
-    border-top: 1px solid gray;
+    border-top: 1px solid lightgrey;
     padding: 30px 30px;
     position: relative;
 }
@@ -334,7 +334,7 @@ hr {
 
 .row-product {
     margin-top: 50px;
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
 }
 
 .products-price p {
